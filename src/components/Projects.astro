@@ -4,6 +4,10 @@ import NextJS from "./icons/NextJS.astro"
 import Tailwind from "./icons/Tailwind.astro"
 import Link from "./icons/Link.astro"
 import LinkButton from "./LinkButton.astro"
+import Android from "./icons/Android.astro"
+import Spring from "./icons/Spring.astro"
+import Rust from "./icons/Rust.astro"
+import Kotlin from "./icons/Kotlin.astro"
 
 const TAGS = {
   NEXT: {
@@ -16,6 +20,26 @@ const TAGS = {
     class: "bg-[#003159] text-white",
     icon: Tailwind,
   },
+  ANDROID: {
+    name: "Android",
+    class: "bg-[#128006] text-white",
+    icon: Android
+  },
+  SPRING: {
+    name: "Spring",
+    class: "bg-[#4f4f4f] text-white",
+    icon: Spring
+  },
+  RUST: {
+    name: "Rust",
+    class: "bg-[#cf8517] text-white",
+    icon: Rust
+  },
+  KOTLIN: {
+    name: "Kotlin",
+    class: "bg-[#391559] text-white",
+    icon: Kotlin
+  }
 }
 const PROJECTS = [
   {
@@ -25,7 +49,7 @@ const PROJECTS = [
     link: "https://svgl.vercel.app/",
     github: "https://github.com/pheralb/svgl",
     image: "/projects/svgl.webp",
-    tags: [TAGS.NEXT, TAGS.TAILWIND],
+    tags: [TAGS.NEXT, TAGS.TAILWIND, TAGS.KOTLIN],
   },
   {
     title: "AdventJS - Retos de programación con JavaScript y TypeScript",
